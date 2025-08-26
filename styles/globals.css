@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-geist-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-geist-mono: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+.bg-primary {
+  background-color: #34967C;
+}
+.bg-footer {
+  background-color: #222222;
+}
+.text-primary {
+  color: #ffffff;
+}
+.text-secondary {
+  color: #616161;
+}
+.text-black {
+  color: #161117;
+}
+.text-placeholder {
+  color: #BEBEBE;
+}
+.text-focus {
+  color: #222222;
+}
+.text-footer {
+  color: #CACACA;
+}
+.text-footer-link {
+  color: #34967C;
+}
+
+.bg-secondary {
+  background-color: #000000;
+}
+.border-primary {
+  border-color: #EBEBEB;
+}
+.border-secondary {
+  border-color: #0F4E3D;
+}
+.border-footer {
+  border-color: #FFFFFF;
+  border-opacity: 0.1;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+.bg-card-category {
+  background-color: #F9F9F9;
+}
